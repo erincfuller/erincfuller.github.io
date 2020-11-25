@@ -162,8 +162,8 @@
   display: inline-block;
   overflow: auto;
   max-width: 40%;
-  margin-top: -130vh;
-  margin-left: 5vw;
+  margin-top: -135vh;
+  margin-left: auto;
 }
 
 .div-block-4 {
@@ -1331,6 +1331,10 @@
   filter: invert(100%);
 }
 
+.landingspace {
+  height: 5vh;
+}
+
 .aboutsec {
   position: static;
 }
@@ -1572,6 +1576,7 @@
   }
 
   .image-3 {
+    margin-top: -145vh;
     margin-left: auto;
   }
 
@@ -1667,6 +1672,10 @@
 }
 
 @media screen and (max-width: 767px) {
+  .image-3 {
+    margin-top: -80vh;
+  }
+
   .columns {
     display: -webkit-box;
     display: -webkit-flex;
@@ -1920,7 +1929,7 @@
 
   .columns-10 {
     width: auto;
-    margin-top: 5vh;
+    margin-top: 0vh;
   }
 
   .image-47 {
