@@ -405,6 +405,10 @@
   margin-left: 45vw;
 }
 
+.paragraph-3.art {
+  color: #7c96da;
+}
+
 .image-10 {
   -webkit-transition: -webkit-transform 200ms ease;
   transition: -webkit-transform 200ms ease;
@@ -462,6 +466,11 @@
   font-weight: 600;
 }
 
+.heading-5.text-block.sss {
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+
 .bold-text-2 {
   color: #768f6a;
   font-size: 24px;
@@ -469,6 +478,11 @@
   text-decoration: none;
   text-transform: lowercase;
   white-space: normal;
+}
+
+.bold-text-2.bump {
+  font-family: 'Avenir 200', sans-serif;
+  font-size: 20px;
 }
 
 .coltext {
@@ -1318,10 +1332,10 @@
 .iconsub {
   margin-top: 0px;
   border-radius: 5px;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(hsla(0, 0%, 100%, 0.88)), to(hsla(0, 0%, 100%, 0.88)));
-  background-image: linear-gradient(180deg, hsla(0, 0%, 100%, 0.88), hsla(0, 0%, 100%, 0.88));
+  background-image: -webkit-gradient(linear, left top, left bottom, from(hsla(0, 0%, 100%, 0)), to(hsla(0, 0%, 100%, 0)));
+  background-image: linear-gradient(180deg, hsla(0, 0%, 100%, 0), hsla(0, 0%, 100%, 0));
   font-family: 'Avenir 400', sans-serif;
-  color: #222;
+  color: #a3a3a3;
   font-size: 12px;
   text-align: center;
 }
